@@ -178,13 +178,13 @@ CREATE PROCEDURE SP_SanPham_MaKH
     @MaKhachHang INT
 AS
 BEGIN
-    SELECT DS.TENHANG AS 'Tên sản phẩm',
-           DS.SOLUONG AS 'Số lượng',
-           D.NGAYDATHANG AS 'Ngày mua'
-    FROM DONDATHANG D
-    INNER JOIN DANHSACDATHANG DS ON D.MASODONHANG = DS.STT
-    WHERE D.PHONE = @MaKhachHang;
-END;
+    --SELECT DS.TENHANG AS 'Tên sản phẩm',
+     --      DS.SOLUONG AS 'Số lượng',
+      --     D.NGAYDATHANG AS 'Ngày mua'
+    --FROM DONDATHANG D
+   -- INNER JOIN DANHSACDATHANG DS ON D.MASODONHANG = DS.STT
+   -- WHERE D.PHONE = @MaKhachHang;
+--END;
 
-GO
- SELECT * FROM 
+--GO
+ S---ELECT * FROM 
